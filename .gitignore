@@ -1,7 +1,7 @@
 ambiente/
 
 # Base de datos SQLite
-db.sqlite3
+#db.sqlite3
 
 # Caché de Python
 __pycache__/
