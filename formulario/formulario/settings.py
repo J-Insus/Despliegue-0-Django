@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).ancestor(3) #Modificamos el BASE_DIR con antecesor
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.enviroment.get('SECRET_KEY', default='123')
+SECRET_KEY = os.environ.get('SECRET_KEY', default='123')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'RENDER' not in os.environ
